@@ -1,0 +1,36 @@
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Navigation from "./Components/Navigation";
+
+function App() {
+  return (
+    <>
+      <Router>
+        <Navigation />
+        <Switch>
+          <Route path="/" exact component={Home}></Route>
+          <Route path="/about" component={About}></Route>
+        </Switch>
+      </Router>
+    </>
+  );
+}
+
+export default App;
+
+
+
+import React from "react";
+import { Link } from "react-router-dom";
+const Navigation = () => {
+  return (
+    <>
+      <Link to="/">Home</Link>
+      <Link to="/about">About</Link>
+    </>
+  );
+};
+
+export default Navigation;

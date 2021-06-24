@@ -1,0 +1,37 @@
+[
+  {
+    "_id": 1,
+    "name": "pinapple",
+    "size": "small",
+    "price": 200,
+    "image":"/images/piz1.jpg"
+},
+{
+  "_id": 2,
+  "name": "mango",
+  "size": "small",
+  "price": 200,
+  "image":"/images/pizza.png"
+},
+{
+  "_id": 3,
+  "name": "mango",
+  "size": "small",
+  "price": 200,
+  "image":"/images/piz1.jpg"
+},
+{
+  "_id": 4,
+  "name": "mango",
+  "size": "small",
+  "price": 200,
+  "image":"/images/hero-pizza.png"
+},
+{
+  "_id": 5,
+  "name": "pinapple",
+  "size": "small",
+  "price": 200,
+  "image":"/images/piz1.jpg"
+}
+]
